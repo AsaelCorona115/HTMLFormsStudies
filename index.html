@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>HTML Forms</title>
+    </head>
+
+    <body>
+      <h1>HTML forms</h1>
+      <form>
+          <label for="username">Enter username: </label>
+          <input type="text" id="username" name="username"  placeholder="username" required >
+          <br>
+          <br>
+          <label for="email">Enter email</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required>
+          <br>   
+          <br>
+          <label for="password">Enter password</label>
+          <input type="password" id="password" name="password" placeholder="Choose a password" required >
+
+          <p>Select your age</p>
+          <input type="radio" name="age" id="option-1" value="0-25">
+          <label for="option-1">0-25</label>
+          <input type="radio" name="age" id="option-2" value="26-50">
+          <label for="option-2">26-50</label>
+          <input type="radio" name="age" id="option-3" value="51+">
+          <label for="option-3">51+</label>
+          <br>
+          <br>
+          <label for="question">Security Question: </label>
+          <select name="question" id="question">
+            <option value="q1">What color are your favorite pair of socks?</option>
+            <option value="q2">If you could be a vegetable what would you be?</option>
+            <option value="q3">What is your best ever Security question?</option>
+          </select>
+          <br>
+          <br>
+          <label for="answer">Security Question Answer</label>
+          <input type="text" name="answer" id="answer">
+          <br>
+          <br>
+          <label for="bio">Your bio</label><br>
+          <textarea name="bio" id="bio" cols="30" rows="10" placeholder="About you..."></textarea>
+          <br>
+          <br>
+          <input type="submit" value="Submit the form" name="" id="">
+
+      </form>
+
+      <br>
+      <br>
+      <form>
+        <input type="radio" name="gender" value="male">Male <br>
+        <input type="radio" name="gender" value="female">Female <br>
+        <input type="radio" name="gender" value="other">Other <br>
+      </form>
+
+
+    
+      <p><b>Note: </b>When a user clicks on a radio-button, it becomes checked, and all 
+        other radio-buttons with equal name become unchecked</p>
+    </body>
+
+</html>
